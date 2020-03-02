@@ -47,3 +47,4 @@ RUN apt-get update && \
 #VOLUME /var/www/html/typo3conf
 #VOLUME /var/www/html/typo3temp
 #VOLUME /var/www/html/uploads
+EXPOSE 8080
