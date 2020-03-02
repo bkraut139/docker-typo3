@@ -43,7 +43,7 @@ RUN apt-get update && \
 #    chown -R www-data. .
 
 # Configure volumes
-VOLUME /var/www/html/fileadmin
-VOLUME /var/www/html/typo3conf
-VOLUME /var/www/html/typo3temp
-VOLUME /var/www/html/uploads
+#VOLUME /var/www/html/fileadmin
+#VOLUME /var/www/html/typo3conf
+#VOLUME /var/www/html/typo3temp
+#VOLUME /var/www/html/uploads
